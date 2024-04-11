@@ -1,4 +1,5 @@
 import * as Yup from 'yup';
+import User from '../models/User';
 
 class SessionController{
     async store( request, response) {
@@ -10,8 +11,12 @@ class SessionController{
 
         const isValid = await schema.isValid(request.body);
 
+        const emailOrPasswordIncorrect = () => {
+            return response.status(401).json({error: 'Make sure your email or password are correct'})
+        };
+
         if(!isValid) {
-            return response.status(401).json({error: 'Make sure your email or password are correct'});
+            return emailOrPasswordIncorrect();
         }
 
         const {email, password} = request.body;
@@ -23,12 +28,21 @@ class SessionController{
         });
 
         if (!user){
-            return response
-                .status(401)
-                .json({ error: 'Make sure your email or password are correct'});
+            return emailOrPasswordIncorrect()
         }
 
-        return response.json({ message: 'session'});
+        const isSamePassword = await user.checkPassword(password);
+
+        if(!isSamePassword){
+           return emailOrPasswordIncorrect();
+        }
+
+        return response.status(201).json({ 
+            id: user.id,
+            name: user.name,
+            email, 
+            admin: user.admin,
+        })
     }
 }
 
