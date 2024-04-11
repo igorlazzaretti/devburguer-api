@@ -17,4 +17,4 @@ class App {
 
 }
 
-module.export = new App().app
+module.exports = new App().app
