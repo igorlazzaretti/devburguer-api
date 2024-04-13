@@ -13,14 +13,6 @@ class Category extends Model {
     return this;
   }
 
-  //Associação do Product com o Category:
-  static associate(models){
-    this.belongsTo(models.Category, {
-        foreignKey: 'category_id',
-        as: 'category',
-        
-    });
-
   }
-}
+
 export default Category;
