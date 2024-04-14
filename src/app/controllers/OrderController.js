@@ -2,7 +2,8 @@ import * as Yup from 'yup';
 import Order from '../schemas/Order';
 import Product from '../models/Product';
 import Category from '../models/Category';
- 
+import User from '../models/User';
+
 class OrderController {
     async store(request, response){
       const schema = Yup.object({
@@ -86,16 +87,26 @@ class OrderController {
       } catch (err) {
         return response.status(400).json({error: err.errors})
       }
-    
-    const { id } = request.params;
-    const { status } = request.body;
 
-    try {
+      
+      // Verifica se o usuário é admin
+
+      const { admin: isAdmin } = await User.findByPk(request.userId)
+
+      if (!isAdmin) {
+          return response.status(401).json( { Error: 'Usuário não autorizado. Usuário não é administrador.'});
+      } 
+    
+      const { id } = request.params;
+      const { status } = request.body;
+
+      try {
       await Order.updateOne({ _id: id }, { status } );      
-    } catch (err) {
+      } catch (err) {
       return response.status(400).json({
         error: err.message
       })
+   
     }
 
     return response.json({ message: 'Status updated sucessfully.'})

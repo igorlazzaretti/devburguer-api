@@ -1,5 +1,6 @@
 import * as Yup from 'yup';
 import Category from '../models/Category';
+import User from '../models/User'
 
 class CategoryController {
     async store(request, response){
@@ -14,6 +15,13 @@ class CategoryController {
             return response.status(400).json({ error: err.errors })
         }
 
+        // Verifica se o usuário é admin
+
+        const { admin: isAdmin } = await User.findByPk(request.userId)
+
+        if (!isAdmin) {
+            return response.status(401).json( { Error: 'Usuário não autorizado. Usuário não é administrador.'});
+        }
 
         const { name } = request.body;
 

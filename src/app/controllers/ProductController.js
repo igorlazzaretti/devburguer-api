@@ -10,10 +10,19 @@ class ProductController {
             category_id: Yup.number().required(),
         });
 
+        
+
         try {
             await schema.validateSync(request.body, { abortEarly: false })
         } catch (err) {
             return response.status(400).json({ error: err.errors })
+        }
+
+        
+        // Verifica se o usuário é admin
+        const { admin: isAdmin } = await User.findByPk(request.userId)
+        if (!isAdmin) {
+            return response.status(401).json( { Error: 'Usuário não autorizado. Usuário não é administrador.'});
         }
 
         const { filename: path } = request.file;
