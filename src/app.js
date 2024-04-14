@@ -1,9 +1,6 @@
 import express from 'express';
-
 import { resolve } from 'node:path';
-
 import routes from './routes';
-
 import './database';
 
 class App {
