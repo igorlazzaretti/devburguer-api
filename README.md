@@ -15,7 +15,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="70" height="65"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="70" height="65"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="70" height="65"/>&nbsp;
-  <img src="  https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" title="Eslint" alt="Eslint" width="70" height="65"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" title="Eslint" alt="Eslint" width="70" height="65"/>&nbsp;
   <img src="https://avatars.githubusercontent.com/u/25822731?s=200&v=4" title="Prettier" alt="Prettier" width="70" height="65"/>&nbsp;
 
 </div>
