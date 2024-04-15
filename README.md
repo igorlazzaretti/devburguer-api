@@ -1,7 +1,7 @@
-## Meu Caderno de React - DevClub
+## DevBurguer API - DevClub
 
 <div align="center">
-   <img width="310"src="./assets/images/readme/mainlogo.jpg">
+   <img width="310"src="./readme-assets/MainLogo.png">
 </div>
 
 ## Sobre o Curso
