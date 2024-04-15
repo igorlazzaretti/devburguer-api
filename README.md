@@ -18,7 +18,9 @@ Sem contar com as aulas liberadas constantemente como potencializador do seu apr
 
 ## Tecnologias Utilizadas
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
 </div>
 
 ## Sobre o Professor
@@ -49,7 +51,7 @@ Hoje o meu propósito é ajudar o máximo de pessoas a transformarem suas vidas 
 
 
 <div align="center">
-<img src="./assets/images/readme/rodolfomori.PNG" width="140" style="border-radius:60px"><br><a href="https://www.linkedin.com/in/agustinhopneto/" target="_blank">Rodolfo Mori</a>
+<img src="./readme-assets/rodolfomoriM.png" width="160" style="border-radius:60px"><br><a href="https://www.linkedin.com/in/agustinhopneto/" target="_blank">Rodolfo Mori</a>
 </div>
 
 
@@ -58,12 +60,12 @@ Hoje o meu propósito é ajudar o máximo de pessoas a transformarem suas vidas 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=600&size=30&duration=3000&pause=700&color=ED51F7&center=true&vCenter=true&random=false&width=490&height=55&lines=Ol%C3%A1!+%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F+Meu+nome+%C3%A9+Igor;Hello!+%F0%9F%91%8B+My+name+is+Igor)](https://git.io/typing-svg)
 
-<img src="./assets/images/readme/igor.png" width="190" style="border-radius:60px">
+<img src="./readme-assets/igor.png" width="190" style="border-radius:60px">
 
 </div>
 
 🎓 Análise de Sistemas - Cruzeiro do Sul <br>
-💻 Estudante FullStack: Dio.me / DevClub <br>
+💻 Estudante FullStack: DevClub <br>
 👩🏻‍💻 Autor do Site: <a href="https://igorlazzaretti.com/">igorlazzaretti.com</a> <br>
 📚 Leitor e Estudante de Inglês <br> 
 🧙‍♂️ Fã de Harry Potter  <br> 
