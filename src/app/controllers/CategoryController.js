@@ -86,6 +86,9 @@ class CategoryController {
 
         const { name } = request.body;
 
+        //verificamos se n existe o path nem name, retorna-se 200
+
+
         if (name) { 
           const categoryNameExists = await Category.findOne({
             where:{
@@ -93,7 +96,7 @@ class CategoryController {
             },
           });
 
-          if (categoryNameExists) { 
+          if (categoryNameExists && categoryNameExists.id != +id ) { 
             return response.status(400).json({ 
                 error: 'Category already exists.'
             })
