@@ -6,6 +6,22 @@
 
 ## Sobre o Projeto
 
+Essa aplicação backend faz parte do projeto final do curso MBA FullStak do DevClub.
+
+A aplicação tem foco no mercado e, assim, foi desenvolvida utilizando uma variedade de tecnologias modernas para criar uma experiência robusta e escalável. Abaixo estão as principais tecnologias utilizadas:
+
+Node.js: Plataforma de execução de JavaScript para servidor.
+<br> Express.js: Framework web para Node.js que facilita a criação de APIs.
+<br> PostgreSQL: Banco de dados relacional para armazenamento estruturado de dados.
+<br> MongoDB: Banco de dados não-relacional para armazenamento flexível de dados.
+<br> MVC (Model-View-Controller): Padrão de arquitetura para separar a lógica de negócios da interface do usuário.
+<br> Docker: Plataforma de contêineres para facilitar a implantação e o gerenciamento de aplicativos.
+<br> Bcrypt e Yup: Bibliotecas para validação e criptografia de dados sensíveis, como senhas.
+<br> Sequelize: ORM (Object-Relational Mapping) para facilitar a interação com o banco de dados PostgreSQL.
+<br> JWT (JSON Web Tokens): Mecanismo para autenticação e troca segura de informações entre partes.
+Eslint e Prettier: Ferramentas para garantir a consistência e a qualidade do código JavaScript.
+
+
 
 ## Tecnologias Utilizadas
 <div align="center">
@@ -15,6 +31,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="70" height="65"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg" title="PostgreSQL" alt="PostgreSQL" width="70" height="65"/>&nbsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original.svg" title="Sequelize" alt="Sequelize" width="70" height="65"/>&nbsp;
+  <img src="https://jwt.io/img/pic_logo.svg" title="JWToken" alt="JWToken" width="70" height="65"/>&nbsp;  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eslint/eslint-original.svg" title="Eslint" alt="Eslint" width="70" height="65"/>&nbsp;
   <img src="https://avatars.githubusercontent.com/u/25822731?s=200&v=4" title="Prettier" alt="Prettier" width="70" height="65"/>&nbsp;
 
@@ -103,5 +120,7 @@ Hoje o meu propósito é ajudar o máximo de pessoas a transformarem suas vidas 
 <!-- ICONES
 
 https://devicon.dev/
+
+
 
  -->
