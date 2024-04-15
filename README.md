@@ -4,6 +4,16 @@
    <img width="310"src="./readme-assets/MainLogo.png">
 </div>
 
+## Sobre o Projeto
+
+
+## Tecnologias Utilizadas
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" title="Node.JS" alt="Node.JS" width="70" height="65"/>&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" title="Express.JS" alt="Express.JS" width="70" height="65"/>&nbsp;
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="70" height="65"/>&nbsp;
+</div>
+
 ## Sobre o Curso
 
 A Formação Devclub é a formação mais completa de programação que você já viu, uma vez que você aprende do zero ao avançado para em menos de 06 meses estar atuando como um programador full stack.
@@ -15,13 +25,6 @@ Sem contar com as aulas liberadas constantemente como potencializador do seu apr
 <div align="center">
 
 <img  width="210" src="./readme-assets/devclubico.png"> </div>
-
-## Tecnologias Utilizadas
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="65" height="65"/>&nbsp;
-</div>
 
 ## Sobre o Professor
 
