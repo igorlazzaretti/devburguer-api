@@ -14,9 +14,32 @@ Sem contar com as aulas liberadas constantemente como potencializador do seu apr
 
 <div align="center">
 
-<img  width="210" src="./assets/images/readme/devclubico.png"> </div>
+<img  width="210" src="./readme-assets/devclubico.png"> </div>
+
+## Tecnologias Utilizadas
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>&nbsp;
+</div>
 
 ## Sobre o Professor
+
+Sou um desenvolvedor de software com mais de 6 anos de experiência na criação de produtos digitais e serviços inovadores. Tenho uma paixão por buscar ambientes que me proporcionem o desenvolvimento contínuo de minhas habilidades técnicas e de liderança, enquanto também contribuo para o crescimento e aprimoramento das pessoas ao meu redor.
+
+Minha motivação é fazer parte da construção de aplicações que não apenas atendam às necessidades do mercado, mas que também tenham um impacto positivo e significativo na vida das pessoas. Sou um entusiasta da colaboração interdisciplinar, acreditando que as melhores soluções surgem quando diferentes áreas se unem para enfrentar desafios complexos. Sou proativo por natureza e sempre busco maneiras de inovar e aprimorar processos, garantindo que nosso trabalho esteja sempre na vanguarda da tecnologia.
+
+Meu compromisso com a excelência é evidente em minha busca constante pelo aprendizado. Estou sempre atualizado com as mais recentes tecnologias, ferramentas e tendências de arquitetura de software. Além disso, estou constantemente explorando como aplicar esse conhecimento em meu dia a dia, a fim de criar soluções mais eficientes e eficazes.
+
+Estou ansioso para fazer parte de equipes inspiradoras e projetos desafiadores, onde posso contribuir com minha experiência e paixão pela tecnologia, ajudando a moldar um futuro digital mais promissor e impactante para todos.
+
+GitHub: https://github.com/agustinhopneto
+
+
+
+<div align="center">
+<img src="./readme-assets/agustinhoM.png" width="160"><a href="https://www.linkedin.com/in/agustinhopneto/" target="_blank"> <p> Agustinho P Neto </p> </a>
+</div>
+
+## Sobre o Idealizador do Curso
 
 Sou ex-eletricista do Metrô de São Paulo e fiz a minha transição de carreira graças a programação. Comecei no mercado aos “trancos e barrancos”, estudando no meu tempo livre que tinha nos feriados e fins de semana para me tornar programador.
 
@@ -29,10 +52,6 @@ Hoje o meu propósito é ajudar o máximo de pessoas a transformarem suas vidas 
 <img src="./assets/images/readme/rodolfomori.PNG" width="140" style="border-radius:60px"><br><a href="https://www.linkedin.com/in/agustinhopneto/" target="_blank">Rodolfo Mori</a>
 </div>
 
-## Tecnologias Utilizadas
-<div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" title="JavaScript" alt="JavaScript" width="50" height="50"/>&nbsp;
-</div>
 
 ## Sobre o Aluno
 <div align="center">
