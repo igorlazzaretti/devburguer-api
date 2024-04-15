@@ -16,6 +16,11 @@ class App {
             '/product-file',
             express.static(resolve(__dirname, '..', 'uploads')),
         );
+        //uploads da imagem das novas categorias
+        this.app.use(
+            '/category-file',
+            express.static(resolve(__dirname, '..', 'uploads')),
+        );
 
     }
 
