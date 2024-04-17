@@ -21,13 +21,16 @@ routes.post('/session', SessionController.store);
 
 
 routes.use(authMiddleware);
+
 routes.post('/products', upload.single('file'), ProductController.store);
-routes.get('/products', authMiddleware, ProductController.index);
+// routes.get('/products', authMiddleware, ProductController.index);
+routes.get('/products', ProductController.index);
 routes.put('/products/:id', upload.single('file'), ProductController.update);
 
 
 routes.post('/categories', upload.single('file'), CategoryController.store);
-routes.get('/categories', authMiddleware, CategoryController.index);
+// routes.get('/categories', authMiddleware, CategoryController.index);
+routes.get('/categories', CategoryController.index);
 routes.put('/categories/:id', upload.single('file'), CategoryController.update);
 
 
